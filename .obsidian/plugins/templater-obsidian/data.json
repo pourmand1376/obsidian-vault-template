@@ -33,6 +33,10 @@
     {
       "folder": "Journaling/YearlyNotes",
       "template": "Templates/8-Yearly Notes Template.md"
+    },
+    {
+      "folder": "/",
+      "template": "Templates/1-new-files.md"
     }
   ],
   "enable_file_templates": false,
