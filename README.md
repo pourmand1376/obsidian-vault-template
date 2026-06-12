@@ -97,6 +97,17 @@ Renders the journal as a calendar tree in the sidebar.
 
 The bracketed segments are literal folder names; the rest is a moment.js format string.
 
+## Optional — Calendar
+
+Mini-calendar in the sidebar. Daily notes work out of the box from your Daily Notes settings; weekly notes need one extra step.
+
+1. Install **Calendar** from the community plugins browser.
+2. **Settings → Calendar → Weekly notes**:
+   - **Show weekly note** → **On**
+   - **Weekly note format** → `gggg-[W]ww`
+   - **Weekly note folder** → `Journaling/WeeklyNotes`
+   - **Weekly note template** → `Templates/5-Weekly Notes Template.md` *(optional — Templater's folder template will fire either way)*
+
 ## Files
 
 | File | What it is |
