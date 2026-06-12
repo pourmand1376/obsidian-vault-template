@@ -80,7 +80,6 @@ Adds a hotkey and ribbon icon to open today's note.
 2. **Settings → Daily notes**:
    - **New file location** → `Journaling/DailyNotes`
    - **Date format** → `YYYY-MM/YYYY-MM-DD` *(custom — nests each daily note under its month folder so the weekly/monthly templates' links resolve)*
-   - **Template file location** → leave **empty**. Templater's folder template handles creation; setting both makes the template fire twice.
 
 ## Optional — Notebook Navigator
 
