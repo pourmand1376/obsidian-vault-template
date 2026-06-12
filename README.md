@@ -153,6 +153,10 @@ tp.user.getShamsiDate()                         // -> Shamsi date for "now"
 - **Different prompts in journal entries.** The body of templates 4–8 is plain Markdown — replace the Persian section headers with your own.
 - **Add tags by default.** Append to the `tags:` list in `1-new-files.md`.
 
+## A note on GitHub's rendering
+
+GitHub will show a "this file has an invalid YAML frontmatter" warning on most of the `.md` files in this repo, and the frontmatter block may render as raw text instead of a metadata table. That's expected: Templater interpolates with `<% ... %>` and `<%* ... %>` tags **inside** the YAML block, which isn't valid YAML on its own — it only becomes valid after Templater runs and replaces the tags with concrete values. The files work correctly inside Obsidian; only GitHub's preview is confused.
+
 ## License
 
 [MIT](LICENSE) — do whatever you like; attribution appreciated but not required.
